@@ -1,0 +1,32 @@
+<!-- Ejemplo de una página con datos estructurados de Article -->
+
+<html>
+    <head>
+        <title>Title of a News Article</title>
+        <script type="application/ld+json">
+            {
+                "@context": "http://schema.org",
+                "@type": "NewsArticle",
+                "headline": "Title of a News Article",
+                "image": [
+                    "https://example.com/photos/1x1/photo.jpg",
+                    "https://example.com/photos/4x3/photo.jpg",
+                    "https://example.com/photos/16x9/photo.jpg"
+                ],
+                "datePublished": "2024-02-05T08:00:00+08:00",
+                dateModified": "2024-02-05T09:20:00+08:00",
+                "author": [{
+                    "@type": "Person",
+                    "name": "Jane Blogs"
+                    "url" : "https://example.com/authors/jane-blogs"
+                }, {
+                    "@type": "Person",
+                    "name": "John Doe"
+                    "url" : "https://example.com/authors/john-doe"
+                }]                
+            }
+        </script>
+    </head>
+    <body>
+    </body>
+</html>
